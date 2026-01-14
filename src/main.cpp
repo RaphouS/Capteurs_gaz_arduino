@@ -35,7 +35,7 @@ void loop()
 
   digitalWrite(LED_BUILTIN, ledState ? HIGH : LOW);
   ledState = !ledState;
-  delay(3);
+  delay(75);
 }
 
 
